@@ -127,6 +127,7 @@ heroku create amazona-ecom-next-echarts
 ```java
 heroku config:set
 
+
 heroku config:set JWT_SECRET="secret"
 
 heroku config:set PUBLIC_URL="https://amazona-ecom-next-echarts.herokuapp.com"
