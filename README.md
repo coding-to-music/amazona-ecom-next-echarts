@@ -16,9 +16,17 @@ https://github.com/hereisfahad/amazona-ecom
 
 https://amazona-ecom-git-master-hereisfahad.vercel.app/
 
+Environment Secrets:
+
 ```java
-const secret = process.env.JWT_SECRET;
-mongoose_1.default.connect(`${process.env.MONGODB_URI
+MONGODB_URI="mongodb+srv://<userid>:<password>@cluster0.zadqe.mongodb.net/amazona-ecom-next-echarts?retryWrites=true&w=majority"
+
+JWT_SECRET=
+NEXT_PUBLIC_JWT_SECRET=
+STRIPE_SECRET_KEY=
+STRIPE_WEBHOOK_SECRET_KEY=
+NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY=
+NEXT_PUBLIC_APP_URL=http://localhost:3000
 ```
 
 ## Deploying to Render
